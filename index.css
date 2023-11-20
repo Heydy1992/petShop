@@ -1,0 +1,71 @@
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #ef0078;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #ef0078;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #e98df5;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px; /* Añade espacio alrededor del enlace para mejorar la interactividad */
+}
+
+nav a:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el mouse sobre el enlace */
+}
+
+/* Estilos del contenido principal */
+main {
+    margin: 20px;
+}
+
+/* Estilos de las secciones */
+section {
+    background-color: #ecf0f1;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #ef0078;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos de la imagen con margen */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0; /* Agregamos un margen superior e inferior */
+}
